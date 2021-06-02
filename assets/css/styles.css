@@ -290,9 +290,11 @@ img {
 .home_social-icon {
     font-size: 1.25rem;
     color: var(--first-color);
+    transition: .3s;
 }
 
 .home_social-icon:hover {
+    transform: translateY(-.25rem);
     color: var(--first-color-alt);
 }
 
@@ -719,9 +721,12 @@ img {
     }
 
     .about_container,
-    .skills_container,
     .portfolio_content {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .skills_container {
+        grid-template-columns: 1fr 1fr;
+        gap: 0;
     }
     .portfolio_data {
         margin: 0;
