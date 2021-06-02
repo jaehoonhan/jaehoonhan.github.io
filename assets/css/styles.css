@@ -600,7 +600,7 @@ img {
 
 
 /*==================== FOOTER ====================*/
-/* .footer{
+.footer{
     background-color: var(--first-color);
     color: #fff;
     text-align: center;
@@ -621,7 +621,7 @@ img {
 }
 .footer__icon:hover {
     color: var(--text-color-light);
-} */
+}
 
 /*========== SCROLL UP ==========*/
 .scrollup {
