@@ -375,15 +375,20 @@ img {
 
 
 /*==================== ABOUT ====================*/
+.about_data {
+    display: flex;
+    flex-direction: column;
+}
 .about_img {
+    margin-left: auto;
+    margin-right: auto;
     width: 200px;
     border-radius: .5rem;
-    justify-self: center;
-    align-self: center;
+    /* justify-self: center;
+    align-self: center; */
 }
 
 .about_description {
-    text-align: center;
     margin-bottom: var(--mb-1-5);
 }
 
@@ -765,6 +770,11 @@ img {
     .home_img {
         order: 1;
         justify-self: center;
+    }
+    .about_img {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 1rem;
     }
     .about_container,
     .portfolio_content {
