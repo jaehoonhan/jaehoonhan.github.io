@@ -384,7 +384,7 @@ img {
 
 .about_description {
     text-align: center;
-    margin-bottom: var(--mb-2-5);
+    margin-bottom: var(--mb-1-5);
 }
 
 .about_info {
@@ -421,6 +421,9 @@ img {
 /*==================== SKILLS ====================*/
 .skills_container {
     row-gap: 0;
+}
+.skills_content {
+    margin: 0 1rem;
 }
 
 .skills_header {
@@ -462,7 +465,13 @@ img {
 .skills_titles {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: var(--mb-0-5);
+}
+.skills_titles-group {
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
 
 .skills_name {
@@ -485,16 +494,25 @@ img {
     background-color: var(--first-color);
 }
     /* Skills bar widths */
-.skills_html {
-    width: 90%;
-}
-.skills_css {
+.skills_80 {
     width: 80%;
 }
-.skills_javascript {
-    width: 90%;
+.skills_75 {
+    width: 75%;
 }
-.skills_react {
+.skills_70 {
+    width: 70%;
+}
+.skills_65 {
+    width: 65%;
+}
+.skills_60 {
+    width: 60%;
+}
+.skills_55 {
+    width: 55%;
+}
+.skills_50 {
     width: 50%;
 }
 
@@ -511,14 +529,22 @@ img {
 .skills_open .skills_arrow {
     transform: rotate(-180deg);
 }
-
-/*==================== QUALIFICATION ====================*/
-
-
-/*==================== SERVICES ====================*/
-
-
-/* Active Modal */
+.tech_list {
+    grid-template-columns: 1fr 1fr;
+    padding-left: 2.7rem;
+}
+.tech_container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.tech_icon{
+    width: 36px;
+}
+.tech_text {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
 
 
 /*==================== PORTFOLIO ====================*/
@@ -607,15 +633,26 @@ img {
     outline: none;
 }
 
-
-/*==================== PROJECT IN MIND ====================*/
-
-
-/*==================== TESTIMONIAL ====================*/
-
-
 /*==================== CONTACT ME ====================*/
-
+.contact_container {
+    padding: 1rem 0;
+    width: 20rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .25);
+    font-size: var(--h2-font-size);
+    text-align: center;
+}
+.contact_icon_flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact_icon {
+    color: var(--first-color);
+}
+    
 
 /*==================== FOOTER ====================*/
 .footer{
@@ -742,6 +779,13 @@ img {
     }
     .portfolio_data {
         margin: 0;
+    }
+    .contact_container {
+        padding: 10rem 0;
+        width: 30rem;
+    }
+    .contact_icon {
+        font-size:var(--mb-2);
     }
 }
 
