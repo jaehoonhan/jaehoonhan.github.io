@@ -37,23 +37,18 @@ const skillsContent = document.getElementsByClassName('skills_content'),
 function toggleSkills() {
     let itemClass = this.parentNode.className
 
-    for(i = 0; i < skillsContent.length; i++) {
-        skillsContent[i].className = 'skills_content skills_open'
-    }
     if (itemClass === 'skills_content skills_open') {
         this.parentNode.className = 'skills_content skills_close'
     }
+    if (itemClass === 'skills_content skills_close') {
+        this.parentNode.className = 'skills_content skills_open'
+    }
+    console.log(skillsContent)
 }
 
 skillsHeader.forEach((el)=>{
     el.addEventListener('click', toggleSkills)
 })
-
-/*==================== QUALIFICATION TABS ====================*/
-
-
-/*==================== SERVICES MODAL ====================*/
-
 
 /*==================== PORTFOLIO SWIPER  ====================*/
 let swiper = new Swiper('.portfolio_container', {
@@ -68,9 +63,6 @@ let swiper = new Swiper('.portfolio_container', {
       clickable: true
     }
 });
-
-/*==================== TESTIMONIAL ====================*/
-
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 const sections = document.querySelectorAll('section[id]')
@@ -137,3 +129,18 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+//----- SCROLL REVEAL -------
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '80px',
+    duration: 2000,
+    reset: false
+});
+
+/*Scroll reveal home*/
+sr.reveal('.home_img',{});
+sr.reveal('.home_title',{delay: 300}); 
+sr.reveal('.home_data',{delay: 500}); 
+sr.reveal('.home_social',{ delay: 700}); 
+sr.reveal('.home_scroll',{ delay: 1000}); 
