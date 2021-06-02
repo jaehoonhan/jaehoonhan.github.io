@@ -38,10 +38,10 @@ function toggleSkills() {
     let itemClass = this.parentNode.className
 
     for(i = 0; i < skillsContent.length; i++) {
-        skillsContent[i].className = 'skills_content skills_close'
+        skillsContent[i].className = 'skills_content skills_open'
     }
-    if (itemClass === 'skills_content skills_close') {
-        this.parentNode.className = 'skills_content skills_open'
+    if (itemClass === 'skills_content skills_open') {
+        this.parentNode.className = 'skills_content skills_close'
     }
 }
 
@@ -56,7 +56,18 @@ skillsHeader.forEach((el)=>{
 
 
 /*==================== PORTFOLIO SWIPER  ====================*/
-
+let swiper = new Swiper('.portfolio_container', {
+    cssMode: true,
+    loop: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true
+    }
+});
 
 /*==================== TESTIMONIAL ====================*/
 
