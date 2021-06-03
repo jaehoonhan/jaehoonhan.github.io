@@ -265,6 +265,9 @@ img {
 }
 
 /*==================== HOME ====================*/
+.home.section{
+    padding: 0;
+}
 .home_container {
     gap: 1rem;
 }
@@ -586,12 +589,13 @@ img {
     border-radius: .5rem;
     justify-self: center;
     align-self: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .35);
 }
 .portfolio_img.ios {
-    width: 150px;
+    width: 200px;
 }
 .portfolio_img.web {
-    width: 350px;
+    width: 400px;
 }
 
 .portfolio_title {
