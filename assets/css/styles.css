@@ -545,6 +545,7 @@ img {
 }
 .tech_icon{
     width: 36px;
+    margin-right: var(--mb-0-5);
 }
 .tech_text {
     font-size: var(--normal-font-size);
@@ -876,6 +877,9 @@ img {
     }
     .portfolio_content {
         align-items: center;
+    }
+    .line_break {
+        display: none;
     }
 }
 

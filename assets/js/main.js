@@ -31,24 +31,25 @@ function linkAction(){
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
 /*==================== ACCORDION SKILLS ====================*/
-const skillsContent = document.getElementsByClassName('skills_content'),
-    skillsHeader = document.querySelectorAll('.skills_header')
+// const skillsContent = document.getElementsByClassName('skills_content'),
+//     skillsHeader = document.querySelectorAll('.skills_header')
 
-function toggleSkills() {
-    let itemClass = this.parentNode.className
+// function toggleSkills() {
+//     let itemClass = this.parentNode.className
 
-    if (itemClass === 'skills_content skills_open') {
-        this.parentNode.className = 'skills_content skills_close'
-    }
-    if (itemClass === 'skills_content skills_close') {
-        this.parentNode.className = 'skills_content skills_open'
-    }
-    console.log(skillsContent)
-}
+//     if (itemClass === 'skills_content skills_open') {
+//         this.parentNode.className = 'skills_content skills_close'
+//     }
+//     if (itemClass === 'skills_content skills_close') {
+//         sr.reveal('.skills_list',{delay: 200});
+//         this.parentNode.className = 'skills_content skills_open'
+//     }
+//     console.log(skillsContent)
+// }
 
-skillsHeader.forEach((el)=>{
-    el.addEventListener('click', toggleSkills)
-})
+// skillsHeader.forEach((el)=>{
+//     el.addEventListener('click', toggleSkills)
+// })
 
 /*==================== PORTFOLIO SWIPER  ====================*/
 let swiper = new Swiper('.portfolio_container', {
@@ -144,3 +145,8 @@ sr.reveal('.home_title',{delay: 300});
 sr.reveal('.home_data',{delay: 500}); 
 sr.reveal('.home_social',{ delay: 700}); 
 sr.reveal('.home_scroll',{ delay: 1000}); 
+/*Scroll reveal portfolio*/
+sr.reveal('.programming_header',{});
+sr.reveal('.skills_list',{delay: 300}); 
+sr.reveal('.tech_header',{delay: 400}); 
+sr.reveal('.tech_list',{ delay: 600}); 
