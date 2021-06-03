@@ -563,7 +563,7 @@ img {
 }
 .portfolio_subtitle {
     display: block;
-    font-size: var(--h3-font-size);
+    font-size: var(--h2-font-size);
     margin-bottom: 0;
     text-align: center;
     font-weight: bold;
