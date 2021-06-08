@@ -781,6 +781,10 @@ img {
         margin-right: 0;
         margin-bottom: 1rem;
     }
+    .about_description.extra {
+        font-size: var(--small-font-size);
+        font-style: italic;
+    }
     .about_container,
     .portfolio_content {
         grid-template-columns: repeat(2, 1fr);
@@ -864,7 +868,7 @@ img {
         column-gap: 5rem;
     }
     .about_img{
-        width: 350px;
+        width: 300px;
     }
     .about_description {
         text-align: initial;
