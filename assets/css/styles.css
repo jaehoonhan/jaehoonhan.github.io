@@ -502,6 +502,12 @@ img {
     background-color: var(--first-color);
 }
     /* Skills bar widths */
+.skills_90{
+    width: 90%;
+}
+.skills_85{
+    width: 85%;
+} 
 .skills_80 {
     width: 80%;
 }
