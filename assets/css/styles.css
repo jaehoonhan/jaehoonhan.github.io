@@ -426,6 +426,10 @@ img {
     transform: translateY(.25rem);
 }
 
+.text_link {
+    color: var(--first-color);
+}
+
 /*==================== SKILLS ====================*/
 .skills_container {
     row-gap: 0;
