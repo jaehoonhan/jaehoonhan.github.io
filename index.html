@@ -1,147 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!--==================== UNICONS ====================-->
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!--==================== UNICONS ====================-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
 
-        
-        <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-        
-        <!--==================== CSS ====================-->
-        <link rel="stylesheet" href="assets/css/styles.css">
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
-        <title>Jay Han's Portfolio</title>
-    </head>
-    <body>
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="#" class="nav_logo">Jay Han</a>
-                <!-- Burger Nav Menu -->
-                <div class="nav_menu" id="nav-menu">
-                    <ul class="nav_list grid">
-                        <!-- Home -->
-                        <li class="nav_item">
-                            <a href="#home" class="nav_link active-link">
-                                <i class="uil uil-estate nav_icon"></i> Home
-                            </a>
-                        </li>
-                        <!-- About -->
-                        <li class="nav_item">
-                            <a href="#about" class="nav_link">
-                                <i class="uil uil-user nav_icon"></i> About
-                            </a>
-                        </li>
-                        <!-- Skills -->
-                        <li class="nav_item">
-                            <a href="#skills" class="nav_link">
-                                <i class="uil uil-arrow nav_icon"></i> Skills
-                            </a>
-                        </li>
-                        <!-- Portfolio -->
-                        <li class="nav_item">
-                            <a href="#portfolio" class="nav_link">
-                                <i class="uil uil-scenery nav_icon"></i> Portfolio
-                            </a>
-                        </li>
-                        <!-- Contact -->
-                        <li class="nav_item">
-                            <a href="#contact" class="nav_link">
-                                <i class="uil uil-message nav_icon"></i> Contact
-                            </a>
-                        </li>
-                    </ul>
-                    <i class="uil uil-times nav_close" id="nav-close"></i>
-                </div>
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
-                <div class="nav_btns">
-                    <!-- Theme Change Button -->
-                    <i class="uil uil-moon change-theme" id="theme-button"></i>
-                    <div class="nav_toggle" id="nav-toggle">
-                        <i class="uil uil-apps"></i>
-                    </div>
-                </div>
-            </nav>
-        </header>
+    <title>Jay Han's Portfolio</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav_logo">Jay Han</a>
+        <!-- Burger Nav Menu -->
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list grid">
+            <!-- Home -->
+            <li class="nav_item">
+              <a href="#home" class="nav_link active-link">
+                <i class="uil uil-estate nav_icon"></i> Home
+              </a>
+            </li>
+            <!-- About -->
+            <li class="nav_item">
+              <a href="#about" class="nav_link">
+                <i class="uil uil-user nav_icon"></i> About
+              </a>
+            </li>
+            <!-- Skills -->
+            <li class="nav_item">
+              <a href="#skills" class="nav_link">
+                <i class="uil uil-arrow nav_icon"></i> Skills
+              </a>
+            </li>
+            <!-- Portfolio -->
+            <li class="nav_item">
+              <a href="#portfolio" class="nav_link">
+                <i class="uil uil-scenery nav_icon"></i> Portfolio
+              </a>
+            </li>
+            <!-- Contact -->
+            <li class="nav_item">
+              <a href="#contact" class="nav_link">
+                <i class="uil uil-message nav_icon"></i> Contact
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav_close" id="nav-close"></i>
+        </div>
 
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="home">
-                <div class="home_container container grid">
-                    <div class="home_content grid">
-                        <div class="home_social">
-                            <a href="https://www.linkedin.com/in/jay-han59/" target="_blank" class="home_social-icon">
-                                <i class="uil uil-linkedin-alt"></i>
-                            </a>
-                            
-                            <a href="https://github.com/jaehoonhan" target="_blank" class="home_social-icon">
-                                <i class="uil uil-github-alt"></i>
-                            </a>
+        <div class="nav_btns">
+          <!-- Theme Change Button -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+          <div class="nav_toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-                            <a href="assets/pdf/JayHan_Resume.pdf" target="_blank" class="home_social-icon">
-                                <i class="uil uil-file-alt"></i>
-                            </a>
-                        </div>
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home_container container grid">
+          <div class="home_content grid">
+            <div class="home_social">
+              <a
+                href="https://www.linkedin.com/in/jay-han59/"
+                target="_blank"
+                class="home_social-icon"
+              >
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
 
-                        <div class="home_img">
-                            <!-- svg for home blob bg -->
-                            <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <mask id="mask0" mask-type="alpha">
-                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+              <a
+                href="https://github.com/jaehoonhan"
+                target="_blank"
+                class="home_social-icon"
+              >
+                <i class="uil uil-github-alt"></i>
+              </a>
+
+              <a
+                href="assets/pdf/JayHan_Resume_(Oct2024).pdf"
+                target="_blank"
+                class="home_social-icon"
+              >
+                <i class="uil uil-file-alt"></i>
+              </a>
+            </div>
+
+            <div class="home_img">
+              <!-- svg for home blob bg -->
+              <svg
+                class="home_blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
                                     130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
                                     97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                                </mask>
-                                <g mask="url(#mask0)">
-                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
                                     165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
                                     129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                                    <!-- change x and y to move Home blob image -->
-                                    <image class="home_blob-img" x='0' y='5' xlink:href="assets/img/perfil.png"/>
-                                </g>
-                            </svg>
-                        </div>
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                  <!-- change x and y to move Home blob image -->
+                  <image
+                    class="home_blob-img"
+                    x="0"
+                    y="5"
+                    xlink:href="assets/img/perfil.png"
+                  />
+                </g>
+              </svg>
+            </div>
 
-                        <div class="home_data">
-                            <h1 class="home_title">Hi, I'm Jay</h1>
-                            <h3 class="home_subtitle">Software Engineer</h3>
-                            <p class="home_description">Web Development, 
-                                iOS Development,<br/> and Cybersecurity</p>
-                            <a href="#contact" class="button button--flex">
-                                Contact Me<i class="uil uil-message button_icon"></i>
-                            </a>
-                        </div>
-                    </div>
-                    
-                    <div class="home_scroll">
-                        <a href="#about" class="home_scroll-button button--flex">
-                            <i class="uil uil-mouse-alt home_scroll-mouse"></i>
-                            <span class="home_scroll-name">Scroll down</span>
-                            <i class="uil uil-arrow-down home_scroll-arrow"></i>
-                        </a>
-                    </div>
-                </div>
-            </section>
+            <div class="home_data">
+              <h1 class="home_title">Hi, I'm Jay</h1>
+              <h3 class="home_subtitle">Software Engineer</h3>
+              <p class="home_description">
+                Web Development, iOS Development,<br />
+                and Cybersecurity
+              </p>
+              <a href="#contact" class="button button--flex">
+                Contact Me<i class="uil uil-message button_icon"></i>
+              </a>
+            </div>
+          </div>
 
-            <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
-                <h2 class="section_title">- About Me -</h2>
+          <div class="home_scroll">
+            <a href="#about" class="home_scroll-button button--flex">
+              <i class="uil uil-mouse-alt home_scroll-mouse"></i>
+              <span class="home_scroll-name">Scroll down</span>
+              <i class="uil uil-arrow-down home_scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
 
-                <div class="about_container container grid">
-                    <div class="about_data">
-                        <p class="about_description">
-                            Hello! My name is Jay. I'm a software engineer from New York City residing in Queens. I have a passion for problem solving and building, which makes software engineering a great fit for my career.                        </p>
-                        <p class="about_description">
-                           My professional experience lies in full stack development using React and Django for a financial tech startup.
-                           My learning journey as a software engineer ranges from creating <a href="#portfolio" class="text_link">entertaining projects</a> with a focus on Full Stack Web, iOS, and Cybersecurity. 
-                        </p>
-                        <!-- <div class="about_info">
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <h2 class="section_title">- About Me -</h2>
+
+        <div class="about_container container grid">
+          <div class="about_data">
+            <p class="about_description">
+              Hello, my name is Jay. I'm a software engineer from New York City
+              residing in Queens. I enjoy solving complex problems that have
+              real-world impact and for that reason I am drawn to technology and
+              engineering – fields with limitless potential to create new
+              solutions.
+            </p>
+            <p class="about_description">
+              My learning journey involved many skills from iOS development to
+              cybersecurity. My professional experience focuses on full-stack
+              development with React, Express, and Django. My current focus is
+              to master React.
+            </p>
+            <!-- <div class="about_info">
                             <div>
                                 <span class="about_info-tfitle">08+</span>
                                 <span class="about_info-name">Years<br> Experience</span>
@@ -155,403 +192,562 @@
                                 <span class="about_info-name">Companies<br> Worked</span>
                             </div>
                         </div> -->
-                        <div class="about_buttons">
-                            <a href="assets/pdf/JayHan_Resume.pdf" target="_blank" class="button button--flex">
-                                View Resume<i class="uil uil-download-alt button_icon"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="about_data">
-                      <img src="assets/img/about.jpg" alt="Image of Me" class="about_img">
-                      <p class="about_description extra">In my free time, I keep my body in shape through olympic weightlifting, basketball, volleyball, and hiking. A key to a good mind is a healthy body.</p>
-                    </div>
-
-                </div>
-            </section>
-
-            <!--==================== SKILLS ====================-->
-            <section class="skills section" id="skills">
-                <h2 class="section_title">- Skills -</h2>
-            
-                <div class="skills_container container grid">
-                    <!-- PROGRAMMING LANGUAGES -->
-                    <div class="skills_content programming_header skills_open">
-                        <div class="skills_header programming_header">
-                            <i class="uil uil-arrow skills_icon"></i>
-            
-                            <div>
-                                <h1 class="skills_titles">Programming <br class="line_break">Languages</h1>
-                            </div>
-            
-                            <!-- <i class="uil uil-angle-down skills_arrow"></i> -->
-                        </div>
-                        <!-- Python -->
-                        <div class="skills_list grid">
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <div class="skills_titles-group">
-                                        <img src="https://img.icons8.com/color/48/000000/python.png" class="tech_icon"/>
-                                        <h3 class="skills_name">Python</h3>
-                                    </div>
-                                    <span class="skills_number">80%</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_85"></span>
-                                </div>
-                            </div>
-                            <!-- JavaScript -->
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <div class="skills_titles-group">
-                                        <img src="https://img.icons8.com/color/48/000000/javascript.png" class="tech_icon"/>
-                                        <h3 class="skills_name">JavaScript</h3>
-                                    </div>
-                                    <span class="skills_number">80%</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_80"></span>
-                                </div>
-                            </div>
-                            <!-- Swift -->
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <div class="skills_titles-group">
-                                        <img src="https://img.icons8.com/fluent/48/000000/swift.png" class="tech_icon"/>
-                                        <h3 class="skills_name">Swift</h3>
-                                    </div>
-                                    <span class="skills_number">60%</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_70"></span>
-                                </div>
-                            </div>
-                            <!-- C++ -->
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <div class="skills_titles-group">
-                                        <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png" class="tech_icon"/>
-                                        <h3 class="skills_name">C++</h3>
-                                    </div>
-                                    <span class="skills_number">50%</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_65"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- TECHNOLOGIES -->
-                    <div class="skills_content skills_open">
-                        <div class="skills_header tech_header">
-                            <i class="uil uil-atom skills_icon"></i>
-                            <div>
-                                <h1 class="skills_titles">Technologies</h1>
-                            </div>
-                            <!-- <i class="uil uil-angle-down skills_arrow"></i> -->
-                        </div>
-                        <!-- Technologies Grid-->
-                        <div class="tech_list grid">
-                            <h3 class="tech_container">
-                                <img src="https://img.icons8.com/color/48/000000/html-5.png" class="tech_icon" />
-                                <span class="tech_text">HTML</span>
-                            </h3>
-                            <h3 class="tech_container">
-                                <img src="https://img.icons8.com/color/48/000000/css3.png" class="tech_icon" />
-                                <span class="tech_text">CSS</span>
-                            </h3>
-                            <h3 class="tech_container">
-                                <img src="https://img.icons8.com/dusk/64/000000/react.png" class="tech_icon"/>
-                                <span class="tech_text">React.js</span>
-                            </h3>
-                            <h3 class="tech_container">
-                                <img src="https://img.icons8.com/material-outlined/48/null/django.png" class="tech_icon" />
-                                <span class="tech_text">Django</span>
-                            </h3>
-                            <h3 class="tech_container">
-                                <img src="https://img.icons8.com/external-lylac-kerismaker/32/null/external-Frontend-web-development-lylac-kerismaker.png" class="tech_icon"/>
-                                <span class="tech_text">Knockout.js</span>
-                            </h3>
-                            <h3 class="tech_container">
-                                <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/null/external-jest-can-collect-code-coverage-information-from-entire-projects-logo-color-tal-revivo.png" class="tech_icon"/>
-                                <span class="tech_text">Jest</span>
-                            </h3>
-                            <h3 class="tech_container">
-                                <img src="https://img.icons8.com/windows/64/000000/node-js.png" class="tech_icon"/>
-                                <span class="tech_text">Node.js</span>
-                            </h3>
-                            <h3 class="tech_container">
-                                <img src="https://img.icons8.com/color/48/000000/mongodb.png" class="tech_icon"/>
-                                <span class="tech_text">MongoDB</span>
-                            </h3>
-                            <h3 class="tech_container">
-                                <img src="https://img.icons8.com/color/48/000000/xcode.png" class="tech_icon"/>
-                                <span class="tech_text">Xcode IB</span>
-                            </h3>
-                            <h3 class="tech_container">
-                                <img src="https://img.icons8.com/dusk/64/000000/sql.png" class="tech_icon"/>
-                                <span class="tech_text">SQL</span>
-                            </h3>
-                            <h3 class="tech_container">
-                                <img src="https://img.icons8.com/color/48/null/jenkins.png" class="tech_icon"/>
-                                <span class="tech_text">Jenkins</span>
-                            </h3>
-                        </div>
-                    </div>
-                    <!-- </div> -->
-                </div>
-            
-            </section>
-
-            <!--==================== PORTFOLIO ====================-->
-            <section class="portfolio section" id="portfolio">
-                <h2 class="section_title">- Projects -</h2>
-                <!--======= WEB ===========-->
-                <div class="portfolio_container container swiper-container">
-                    <span class="portfolio_subtitle"><i class="uil uil-desktop portfolio_icon"></i> Web</span>
-                    <div class="swiper-wrapper">
-                        <!-- Project 1 -->
-                        <div class="portfolio_content grid swiper-slide">
-                            <img src="https://i.imgur.com/wqw249e.gif" alt="Rocketship" class="portfolio_img web">
-
-                            <div class="portfolio_data">
-                                <h3 class="portfolio_title">Rocketship</h3>
-                                <p class="portfolio_description">
-                                    A stock trading sandbox to trade virtual assets with real-world correspondence. In production with a team of 4.<br/>
-                                    <em>{React.js, Express.js, MongoDB, Plotly.js, Polygon.io}</em>
-                                </p>
-                                <!-- Uncomment to add Live link -->
-                                <!-- <a href="#" class="button button--flex button--small portfolio_button">
-                                    Live
-                                    <i class="uil uil-arrow-right button_icon"></i>
-                                </a> -->
-                                <a href="https://github.com/rocketship-devs/rocketship" target="_blank" class="button button--flex button--small portfolio_button">
-                                    GitHub
-                                    <i class="uil uil-arrow-right button_icon"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- Project 2 -->
-                        <div class="portfolio_content grid swiper-slide">
-                            <img src="https://i.imgur.com/ZwcyQK0.gif" alt="Social Distance Run" class="portfolio_img web">
-
-                            <div class="portfolio_data">
-                                <h3 class="portfolio_title">Social Distance Run</h3>
-                                <p class="portfolio_description">
-                                    An endless runner game with original sprites to practice your moves avoiding non-mask users.<br/>
-                                    <em>{JavaScript, HTML5 Canvas}</em>
-                                </p>
-                                <a href="https://suhdan.github.io/sober-run/" class="button button--flex button--small portfolio_button">
-                                    Live
-                                    <i class="uil uil-arrow-right button_icon"></i>
-                                </a>
-                                <a href="https://github.com/dansuhhh/sober-run" target="_blank" class="button button--flex button--small portfolio_button">
-                                    GitHub
-                                    <i class="uil uil-arrow-right button_icon"></i>
-                                </a>
-                            </div>
-                        </div>
-
-                        <!-- Project 3 -->
-                        <div class="portfolio_content grid swiper-slide">
-                            <img src="https://i.imgur.com/FlvU0F3.gif" alt="hoonLifts" class="portfolio_img web">
-
-                            <div class="portfolio_data">
-                                <h3 class="portfolio_title">HoonLifts</h3>
-                                <p class="portfolio_description">
-                                    An exercise tracker that allows users to save exercises and basic info to their list.<br/>
-                                    <em>{React.js, Express.js, MongoDB}</em>
-                                </p>
-                                <!-- <a href="#" class="button button--flex button--small portfolio_button">
-                                    Demo
-                                    <i class="uil uil-arrow-right button_icon"></i>
-                                </a> -->
-                                <a href="https://github.com/jaehoonhan/hoonLifts" target="_blank" class="button button--flex button--small portfolio_button">
-                                    GitHub
-                                    <i class="uil uil-arrow-right button_icon"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Slider Arrows -->
-                    <div class="swiper-button-next">
-                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-                    </div>
-                    <div class="swiper-button-prev">
-                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-                    </div>
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination"></div>
-                </div>
-                <!-- ====== IOS ========= -->
-                <div class="portfolio_container container swiper-container">
-                    <span class="portfolio_subtitle"><i class="uil uil-mobile-android portfolio_icon"></i> iOS</span>
-                    <div class="swiper-wrapper">
-                        <!-- ios Project 1 -->
-                        <div class="portfolio_content grid swiper-slide">
-                            <img src="https://i.imgur.com/KfdSh1u.gif" alt="Social Distance Run" class="portfolio_img ios">
-
-                            <div class="portfolio_data">
-                                <h3 class="portfolio_title">Rootify</h3>
-                                <p class="portfolio_description">
-                                    An iOS app that identifies indoor plants via image and tracks their watering, potting, and sunlight maintenance.<br/>
-                                    <em>{Swift, Xcode IB, Parse, Plant.id, AlamofireImage}</em>
-                                </p>
-                                <!-- <a href="#" class="button button--flex button--small portfolio_button">
-                                    Demo
-                                    <i class="uil uil-arrow-right button_icon"></i>
-                                </a> -->
-                                <a href="https://github.com/jvt013/Demo-Project" target="_blank" class="button button--flex button--small portfolio_button">
-                                    GitHub
-                                    <i class="uil uil-arrow-right button_icon"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- ios Project 2 -->
-                        <div class="portfolio_content grid swiper-slide">
-                            <img src="https://i.imgur.com/w9NxPUh.gif" alt="" class="portfolio_img ios">
-
-                            <div class="portfolio_data">
-                                <h3 class="portfolio_title">simpleTweets</h3>
-                                <p class="portfolio_description">
-                                    A simplified twitter app that allows you to view, compose, favorite, and retweet tweets from your twitter account.<br/>
-                                    <em>{Swift, Xcode IB, Twitter API}</em>
-                                </p>
-                                <!-- <a href="#" class="button button--flex button--small portfolio_button">
-                                    Demo
-                                    <i class="uil uil-arrow-right button_icon"></i>
-                                </a> -->
-                                <a href="https://github.com/jaehoonhan/simpleTweets" target="_blank" class="button button--flex button--small portfolio_button">
-                                    GitHub
-                                    <i class="uil uil-arrow-right button_icon"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- ios Project 3 -->
-                        <div class="portfolio_content grid swiper-slide">
-                            <img src="https://i.imgur.com/dqVLbFk.gif" alt="" class="portfolio_img ios">
-
-                            <div class="portfolio_data">
-                                <h3 class="portfolio_title">InstaClone</h3>
-                                <p class="portfolio_description">
-                                    An Instagram clone with a custom backend that allows users to post photos, view a photos feed, and add comments.<br/>
-                                    <em>{Xcode IB, Parse, AlamofireImage}</em>
-                                </p>
-                                <!-- <a href="#" class="button button--flex button--small portfolio_button">
-                                    Demo
-                                    <i class="uil uil-arrow-right button_icon"></i>
-                                </a> -->
-                                <a href="https://github.com/jaehoonhan/instaClone" target="_blank" class="button button--flex button--small portfolio_button">
-                                    GitHub
-                                    <i class="uil uil-arrow-right button_icon"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- ios Project 4 -->
-                        <div class="portfolio_content grid swiper-slide">
-                            <img src="https://i.imgur.com/8BiAYiS.gif" alt="" class="portfolio_img ios">
-
-                            <div class="portfolio_data">
-                                <h3 class="portfolio_title">flix</h3>
-                                <p class="portfolio_description">
-                                    A movie browser app to show you popular recent movies as well as movies you might be interested in.<br/>
-                                    <em>{Swift, Xcode IB, TMDb API}</em>
-                                </p>
-                                <!-- <a href="#" class="button button--flex button--small portfolio_button">
-                                    Demo
-                                    <i class="uil uil-arrow-right button_icon"></i>
-                                </a> -->
-                                <a href="https://github.com/jaehoonhan/flix" target="_blank" class="button button--flex button--small portfolio_button">
-                                    GitHub
-                                    <i class="uil uil-arrow-right button_icon"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Slider Arrows -->
-                    <div class="swiper-button-next">
-                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-                    </div>
-                    <div class="swiper-button-prev">
-                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-                    </div>
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination"></div>
-                </div>
-                <!-- ====== Other ========= -->
-                <div class="portfolio_container container swiper-container">
-                    <span class="portfolio_subtitle"><i class="uil uil-padlock portfolio_icon"></i> Cybersecurity</span>
-                    <div class="swiper-wrapper">
-                        <!-- Project 1 -->
-                        <div class="portfolio_content grid swiper-slide">
-                            <img src="https://i.imgur.com/nDLnRNI.jpg" alt="Rocketship" class="portfolio_img web">
-
-                            <div class="portfolio_data">
-                                <h3 class="portfolio_title">PyNIDS</h3>
-                                <p class="portfolio_description">
-                                    A local area network intrusion detection program that captures network packets and checks for suspicious traffic.<br/>
-                                    <em>{Python - socket, struct}</em>
-                                </p>
-                                <!-- Uncomment to add Live link -->
-                                <!-- <a href="#" class="button button--flex button--small portfolio_button">
-                                    Live
-                                    <i class="uil uil-arrow-right button_icon"></i>
-                                </a> -->
-                                <a href="https://github.com/jaehoonhan/PyNIDS" target="_blank" class="button button--flex button--small portfolio_button">
-                                    GitHub
-                                    <i class="uil uil-arrow-right button_icon"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Slider Arrows -->
-                    <div class="swiper-button-next">
-                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-                    </div>
-                    <div class="swiper-button-prev">
-                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-                    </div>
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination"></div>
-                </div>          
-            </section> 
-
-            <!--==================== CONTACT ME ====================-->
-            <section class="contact section" id="contact">
-                <h2 class="section_title">- Contact Me -</h2>
- 
-                <div class="contact_container container grid">
-                    <div><i class="uil uil-envelope-alt contact_icon"></i>JaehoonHan1@gmail.com</div>
-                    <div><i class="uil uil-map-marker contact_icon"></i>New York, NY</div>
-                    <div class="contact_icon_flex">
-                        <a href="https://www.linkedin.com/in/jay-han-2938171a8/" target="_blank" class="contact_icon"><i class='uil uil-linkedin' ></i></a>
-                        <a href="https://www.instagram.com/lanky_squats/" target="_blank" class="contact_icon"><i class='uil uil-instagram' ></i></a>
-                        <a href="https://github.com/jaehoonhan" target="_blank" class="contact_icon"><i class='uil uil-github' ></i></a>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
-            <div class="footer_container container">
+            <div class="about_buttons">
+              <a
+                href="assets/pdf/JayHan_Resume_(Oct2024).pdf"
+                target="_blank"
+                class="button button--flex"
+              >
+                View Resume<i class="uil uil-download-alt button_icon"></i>
+              </a>
             </div>
-        </footer>
-        
-        <!--SCROLL TOP -->
-        <a href="#" class="scrollup" id="scroll-up">
-            <i class="uil uil-arrow-up scrollup_icon"></i>
-        </a>
+          </div>
+          <div class="about_data">
+            <img
+              src="assets/img/about.jpg"
+              alt="Image of Me"
+              class="about_img"
+            />
+            <p class="about_description extra">
+              Hobbies: coaching volleyball, creating new recipes, and exploring
+              new places
+            </p>
+          </div>
+        </div>
+      </section>
 
-        <!-- SWIPER JS -->
-        <script src="assets/js/swiper-bundle.min.js"></script>
-        <!-- SCROLL REVEAL -->
-        <script src="https://unpkg.com/scrollreveal"></script>
-        <!-- Font awesome Kit -->
-        <script src="https://kit.fontawesome.com/2d17f22cf8.js" crossorigin="anonymous"></script>
-        <!-- MAIN JS -->
-        <script src="assets/js/main.js"></script>
-    </body>
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <h2 class="section_title">- Skills -</h2>
+
+        <div class="skills_container container grid">
+          <!-- PROGRAMMING LANGUAGES -->
+          <div class="skills_content programming_header skills_open">
+            <div class="skills_header programming_header">
+              <i class="uil uil-arrow skills_icon"></i>
+
+              <div>
+                <h1 class="skills_titles">
+                  Programming <br class="line_break" />Languages
+                </h1>
+              </div>
+
+              <!-- <i class="uil uil-angle-down skills_arrow"></i> -->
+            </div>
+            <!-- Python -->
+            <div class="skills_list grid">
+              <div class="skills_data">
+                <div class="skills_titles">
+                  <div class="skills_titles-group">
+                    <img
+                      src="https://img.icons8.com/color/48/000000/python.png"
+                      class="tech_icon"
+                    />
+                    <h3 class="skills_name">Python</h3>
+                  </div>
+                  <span class="skills_number">80%</span>
+                </div>
+                <div class="skills_bar">
+                  <span class="skills_percentage skills_85"></span>
+                </div>
+              </div>
+              <!-- JavaScript -->
+              <div class="skills_data">
+                <div class="skills_titles">
+                  <div class="skills_titles-group">
+                    <img
+                      src="https://img.icons8.com/color/48/000000/javascript.png"
+                      class="tech_icon"
+                    />
+                    <h3 class="skills_name">JavaScript</h3>
+                  </div>
+                  <span class="skills_number">80%</span>
+                </div>
+                <div class="skills_bar">
+                  <span class="skills_percentage skills_80"></span>
+                </div>
+              </div>
+              <!-- Swift -->
+              <div class="skills_data">
+                <div class="skills_titles">
+                  <div class="skills_titles-group">
+                    <img
+                      src="https://img.icons8.com/fluent/48/000000/swift.png"
+                      class="tech_icon"
+                    />
+                    <h3 class="skills_name">Swift</h3>
+                  </div>
+                  <span class="skills_number">60%</span>
+                </div>
+                <div class="skills_bar">
+                  <span class="skills_percentage skills_70"></span>
+                </div>
+              </div>
+              <!-- C++ -->
+              <div class="skills_data">
+                <div class="skills_titles">
+                  <div class="skills_titles-group">
+                    <img
+                      src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
+                      class="tech_icon"
+                    />
+                    <h3 class="skills_name">C++</h3>
+                  </div>
+                  <span class="skills_number">50%</span>
+                </div>
+                <div class="skills_bar">
+                  <span class="skills_percentage skills_65"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- TECHNOLOGIES -->
+          <div class="skills_content skills_open">
+            <div class="skills_header tech_header">
+              <i class="uil uil-atom skills_icon"></i>
+              <div>
+                <h1 class="skills_titles">Technologies</h1>
+              </div>
+              <!-- <i class="uil uil-angle-down skills_arrow"></i> -->
+            </div>
+            <!-- Technologies Grid-->
+            <div class="tech_list grid">
+              <h3 class="tech_container">
+                <img
+                  src="https://img.icons8.com/color/48/000000/html-5.png"
+                  class="tech_icon"
+                />
+                <span class="tech_text">HTML</span>
+              </h3>
+              <h3 class="tech_container">
+                <img
+                  src="https://img.icons8.com/color/48/000000/css3.png"
+                  class="tech_icon"
+                />
+                <span class="tech_text">CSS</span>
+              </h3>
+              <h3 class="tech_container">
+                <img
+                  src="https://img.icons8.com/dusk/64/000000/react.png"
+                  class="tech_icon"
+                />
+                <span class="tech_text">React.js</span>
+              </h3>
+              <h3 class="tech_container">
+                <img
+                  src="https://img.icons8.com/material-outlined/48/null/django.png"
+                  class="tech_icon"
+                />
+                <span class="tech_text">Django</span>
+              </h3>
+              <h3 class="tech_container">
+                <img
+                  src="https://img.icons8.com/external-lylac-kerismaker/32/null/external-Frontend-web-development-lylac-kerismaker.png"
+                  class="tech_icon"
+                />
+                <span class="tech_text">Knockout.js</span>
+              </h3>
+              <h3 class="tech_container">
+                <img
+                  src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/null/external-jest-can-collect-code-coverage-information-from-entire-projects-logo-color-tal-revivo.png"
+                  class="tech_icon"
+                />
+                <span class="tech_text">Jest</span>
+              </h3>
+              <h3 class="tech_container">
+                <img
+                  src="https://img.icons8.com/windows/64/000000/node-js.png"
+                  class="tech_icon"
+                />
+                <span class="tech_text">Node.js</span>
+              </h3>
+              <h3 class="tech_container">
+                <img
+                  src="https://img.icons8.com/color/48/000000/mongodb.png"
+                  class="tech_icon"
+                />
+                <span class="tech_text">MongoDB</span>
+              </h3>
+              <h3 class="tech_container">
+                <img
+                  src="https://img.icons8.com/color/48/000000/xcode.png"
+                  class="tech_icon"
+                />
+                <span class="tech_text">Xcode IB</span>
+              </h3>
+              <h3 class="tech_container">
+                <img
+                  src="https://img.icons8.com/dusk/64/000000/sql.png"
+                  class="tech_icon"
+                />
+                <span class="tech_text">SQL</span>
+              </h3>
+              <h3 class="tech_container">
+                <img
+                  src="https://img.icons8.com/color/48/null/jenkins.png"
+                  class="tech_icon"
+                />
+                <span class="tech_text">Jenkins</span>
+              </h3>
+            </div>
+          </div>
+          <!-- </div> -->
+        </div>
+      </section>
+
+      <!--==================== PORTFOLIO ====================-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section_title">- Projects -</h2>
+        <!--======= WEB ===========-->
+        <div class="portfolio_container container swiper-container">
+          <span class="portfolio_subtitle"
+            ><i class="uil uil-desktop portfolio_icon"></i> Web</span
+          >
+          <div class="swiper-wrapper">
+            <!-- Project 1 -->
+            <div class="portfolio_content grid swiper-slide">
+              <img
+                src="https://i.imgur.com/wqw249e.gif"
+                alt="Rocketship"
+                class="portfolio_img web"
+              />
+
+              <div class="portfolio_data">
+                <h3 class="portfolio_title">Rocketship</h3>
+                <p class="portfolio_description">
+                  A stock trading sandbox to trade virtual assets with
+                  real-world correspondence. In production with a team of 4.<br />
+                  <em
+                    >{React.js, Express.js, MongoDB, Plotly.js, Polygon.io}</em
+                  >
+                </p>
+                <!-- Uncomment to add Live link -->
+                <!-- <a href="#" class="button button--flex button--small portfolio_button">
+                                    Live
+                                    <i class="uil uil-arrow-right button_icon"></i>
+                                </a> -->
+                <a
+                  href="https://github.com/rocketship-devs/rocketship"
+                  target="_blank"
+                  class="button button--flex button--small portfolio_button"
+                >
+                  GitHub
+                  <i class="uil uil-arrow-right button_icon"></i>
+                </a>
+              </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="portfolio_content grid swiper-slide">
+              <img
+                src="https://i.imgur.com/ZwcyQK0.gif"
+                alt="Social Distance Run"
+                class="portfolio_img web"
+              />
+
+              <div class="portfolio_data">
+                <h3 class="portfolio_title">Social Distance Run</h3>
+                <p class="portfolio_description">
+                  An endless runner game with original sprites to practice your
+                  moves avoiding non-mask users.<br />
+                  <em>{JavaScript, HTML5 Canvas}</em>
+                </p>
+                <a
+                  href="https://suhdan.github.io/sober-run/"
+                  class="button button--flex button--small portfolio_button"
+                >
+                  Live
+                  <i class="uil uil-arrow-right button_icon"></i>
+                </a>
+                <a
+                  href="https://github.com/dansuhhh/sober-run"
+                  target="_blank"
+                  class="button button--flex button--small portfolio_button"
+                >
+                  GitHub
+                  <i class="uil uil-arrow-right button_icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="portfolio_content grid swiper-slide">
+              <img
+                src="https://i.imgur.com/FlvU0F3.gif"
+                alt="hoonLifts"
+                class="portfolio_img web"
+              />
+
+              <div class="portfolio_data">
+                <h3 class="portfolio_title">HoonLifts</h3>
+                <p class="portfolio_description">
+                  An exercise tracker that allows users to save exercises and
+                  basic info to their list.<br />
+                  <em>{React.js, Express.js, MongoDB}</em>
+                </p>
+                <!-- <a href="#" class="button button--flex button--small portfolio_button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button_icon"></i>
+                                </a> -->
+                <a
+                  href="https://github.com/jaehoonhan/hoonLifts"
+                  target="_blank"
+                  class="button button--flex button--small portfolio_button"
+                >
+                  GitHub
+                  <i class="uil uil-arrow-right button_icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slider Arrows -->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+        <!-- ====== IOS ========= -->
+        <div class="portfolio_container container swiper-container">
+          <span class="portfolio_subtitle"
+            ><i class="uil uil-mobile-android portfolio_icon"></i> iOS</span
+          >
+          <div class="swiper-wrapper">
+            <!-- ios Project 1 -->
+            <div class="portfolio_content grid swiper-slide">
+              <img
+                src="https://i.imgur.com/KfdSh1u.gif"
+                alt="Social Distance Run"
+                class="portfolio_img ios"
+              />
+
+              <div class="portfolio_data">
+                <h3 class="portfolio_title">Rootify</h3>
+                <p class="portfolio_description">
+                  An iOS app that identifies indoor plants via image and tracks
+                  their watering, potting, and sunlight maintenance.<br />
+                  <em>{Swift, Xcode IB, Parse, Plant.id, AlamofireImage}</em>
+                </p>
+                <!-- <a href="#" class="button button--flex button--small portfolio_button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button_icon"></i>
+                                </a> -->
+                <a
+                  href="https://github.com/jvt013/Demo-Project"
+                  target="_blank"
+                  class="button button--flex button--small portfolio_button"
+                >
+                  GitHub
+                  <i class="uil uil-arrow-right button_icon"></i>
+                </a>
+              </div>
+            </div>
+            <!-- ios Project 2 -->
+            <div class="portfolio_content grid swiper-slide">
+              <img
+                src="https://i.imgur.com/w9NxPUh.gif"
+                alt=""
+                class="portfolio_img ios"
+              />
+
+              <div class="portfolio_data">
+                <h3 class="portfolio_title">simpleTweets</h3>
+                <p class="portfolio_description">
+                  A simplified twitter app that allows you to view, compose,
+                  favorite, and retweet tweets from your twitter account.<br />
+                  <em>{Swift, Xcode IB, Twitter API}</em>
+                </p>
+                <!-- <a href="#" class="button button--flex button--small portfolio_button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button_icon"></i>
+                                </a> -->
+                <a
+                  href="https://github.com/jaehoonhan/simpleTweets"
+                  target="_blank"
+                  class="button button--flex button--small portfolio_button"
+                >
+                  GitHub
+                  <i class="uil uil-arrow-right button_icon"></i>
+                </a>
+              </div>
+            </div>
+            <!-- ios Project 3 -->
+            <div class="portfolio_content grid swiper-slide">
+              <img
+                src="https://i.imgur.com/dqVLbFk.gif"
+                alt=""
+                class="portfolio_img ios"
+              />
+
+              <div class="portfolio_data">
+                <h3 class="portfolio_title">InstaClone</h3>
+                <p class="portfolio_description">
+                  An Instagram clone with a custom backend that allows users to
+                  post photos, view a photos feed, and add comments.<br />
+                  <em>{Xcode IB, Parse, AlamofireImage}</em>
+                </p>
+                <!-- <a href="#" class="button button--flex button--small portfolio_button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button_icon"></i>
+                                </a> -->
+                <a
+                  href="https://github.com/jaehoonhan/instaClone"
+                  target="_blank"
+                  class="button button--flex button--small portfolio_button"
+                >
+                  GitHub
+                  <i class="uil uil-arrow-right button_icon"></i>
+                </a>
+              </div>
+            </div>
+            <!-- ios Project 4 -->
+            <div class="portfolio_content grid swiper-slide">
+              <img
+                src="https://i.imgur.com/8BiAYiS.gif"
+                alt=""
+                class="portfolio_img ios"
+              />
+
+              <div class="portfolio_data">
+                <h3 class="portfolio_title">flix</h3>
+                <p class="portfolio_description">
+                  A movie browser app to show you popular recent movies as well
+                  as movies you might be interested in.<br />
+                  <em>{Swift, Xcode IB, TMDb API}</em>
+                </p>
+                <!-- <a href="#" class="button button--flex button--small portfolio_button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button_icon"></i>
+                                </a> -->
+                <a
+                  href="https://github.com/jaehoonhan/flix"
+                  target="_blank"
+                  class="button button--flex button--small portfolio_button"
+                >
+                  GitHub
+                  <i class="uil uil-arrow-right button_icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Slider Arrows -->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+        <!-- ====== Other ========= -->
+        <div class="portfolio_container container swiper-container">
+          <span class="portfolio_subtitle"
+            ><i class="uil uil-padlock portfolio_icon"></i> Cybersecurity</span
+          >
+          <div class="swiper-wrapper">
+            <!-- Project 1 -->
+            <div class="portfolio_content grid swiper-slide">
+              <img
+                src="https://i.imgur.com/nDLnRNI.jpg"
+                alt="Rocketship"
+                class="portfolio_img web"
+              />
+
+              <div class="portfolio_data">
+                <h3 class="portfolio_title">PyNIDS</h3>
+                <p class="portfolio_description">
+                  A local area network intrusion detection program that captures
+                  network packets and checks for suspicious traffic.<br />
+                  <em>{Python - socket, struct}</em>
+                </p>
+                <!-- Uncomment to add Live link -->
+                <!-- <a href="#" class="button button--flex button--small portfolio_button">
+                                    Live
+                                    <i class="uil uil-arrow-right button_icon"></i>
+                                </a> -->
+                <a
+                  href="https://github.com/jaehoonhan/PyNIDS"
+                  target="_blank"
+                  class="button button--flex button--small portfolio_button"
+                >
+                  GitHub
+                  <i class="uil uil-arrow-right button_icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slider Arrows -->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ME ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section_title">- Contact Me -</h2>
+
+        <div class="contact_container container grid">
+          <div>
+            <i class="uil uil-envelope-alt contact_icon"></i
+            >JaehoonHan1@gmail.com
+          </div>
+          <div><i class="uil uil-map-marker contact_icon"></i>New York, NY</div>
+          <div class="contact_icon_flex">
+            <a
+              href="https://www.linkedin.com/in/jay-han-2938171a8/"
+              target="_blank"
+              class="contact_icon"
+              ><i class="uil uil-linkedin"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/lanky_squats/"
+              target="_blank"
+              class="contact_icon"
+              ><i class="uil uil-instagram"></i
+            ></a>
+            <a
+              href="https://github.com/jaehoonhan"
+              target="_blank"
+              class="contact_icon"
+              ><i class="uil uil-github"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer_container container"></div>
+    </footer>
+
+    <!--SCROLL TOP -->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup_icon"></i>
+    </a>
+
+    <!-- SWIPER JS -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Font awesome Kit -->
+    <script
+      src="https://kit.fontawesome.com/2d17f22cf8.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- MAIN JS -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
